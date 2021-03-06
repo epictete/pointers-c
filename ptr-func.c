@@ -3,7 +3,7 @@
 
 int* Add(int* a, int* b)
 {
-    int* c = (int*)malloc(sizeof(int));
+    int* c = malloc(sizeof(int));
 
     *c = *a + *b;
 

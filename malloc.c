@@ -8,7 +8,7 @@ int main(void)
 	printf("Enter size of array: ");
 	scanf("%d", &n);
 
-	int* A = (int*)malloc(n * sizeof(int));
+	int* A = malloc(n * sizeof(int));
 
 	for (int i = 0; i < n; i++)
 	{
